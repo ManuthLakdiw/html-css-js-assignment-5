@@ -62,7 +62,7 @@ section > div:first-child {
 }
 
 section > div:first-child button {
-    background-color: rgba(255, 0, 0, 0.299);
+    background-color: rgba(211, 153, 5, 0.299);
     cursor: pointer;
     width: 60px;
     min-height: 90px;
@@ -180,7 +180,7 @@ section > div:last-child button:nth-of-type(14) {
 }
 
 section > div:last-child button:nth-of-type(15) {
-    background-color: rgba(255, 0, 0, 0.299);
+    background-color: rgba(211, 153, 5, 0.299);
     grid-column: 3;
     grid-row: 4;
 }
