@@ -76,12 +76,24 @@ section button:active {
 
 label {
     display: block;
+    letter-spacing: 2px;
+    font-size: 2rem;
     width: 350px;
     height: 50px;
     border: 1px solid black;
     order: 1;
+    color: white;
+    text-align:end;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
 }
 
+label::-webkit-scrollbar {
+    scrollbar-width:thin;
+}
 
 section > div:last-child button {
     height: 70px;
